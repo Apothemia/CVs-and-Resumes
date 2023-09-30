@@ -1,0 +1,52 @@
+\documentclass{resume}
+
+\usepackage{geometry}
+\geometry{a4paper, margin=2cm}
+
+\usepackage[at]{easylist}
+\usepackage{ragged2e}
+\usepackage{multicol}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{footnote}
+\usepackage{changepage}
+\usepackage{fontawesome}
+\usepackage{tabularx}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+\newcommand{\link}[1]{{\href{https://www.#1}{#1}}}
+
+%----------------------------------------------------------------------------------------
+%   Begin document
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+    % Info
+    \input{Sections/1_info}
+
+    % Headline
+    \input{Sections/2_headline}
+
+    % Education
+    \input{Sections/3_education}
+
+    %  Work Experience
+    \input{Sections/4_work_experience}
+
+    % Academic Projects
+    \input{Sections/5_academic_projects}
+
+    \pagebreak
+
+    % Certificates
+    \input{Sections/6_certificates}
+
+    % Skills and Competencies
+    \input{Sections/7_skills}
+
+    % References
+    \input{Sections/8_references}
+
+\end{document}
