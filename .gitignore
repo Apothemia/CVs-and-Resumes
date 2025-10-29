@@ -1,7 +1,10 @@
 # Project exclude paths
-/out/
-/src/ClassicalTurkish/
-/src/ClassicalEnglish/Sections/1_info.tex
-/src/ClassicalEnglish/Sections/8_references.tex
-/src/ClassicalEnglish/Sections/1_info_redacted.tex
-/src/ClassicalEnglish/Sections/8_references_redacted.tex
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries
+.idea/shelf
+out/
+src/ClassicalTurkish/
+src/ClassicalEnglish/Sections/1_info.tex
+src/ClassicalEnglish/Sections/8_references.tex
