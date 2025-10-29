@@ -1,4 +1,7 @@
 # Project exclude paths
 /out/
-# Project exclude paths
 /src/ClassicalTurkish/
+/src/ClassicalEnglish/Sections/1_info.tex
+/src/ClassicalEnglish/Sections/8_references.tex
+/src/ClassicalEnglish/Sections/1_info_redacted.tex
+/src/ClassicalEnglish/Sections/8_references_redacted.tex

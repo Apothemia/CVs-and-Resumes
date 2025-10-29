@@ -1,7 +1,6 @@
 % Set font size and paper type
 \LoadClass[12pt,a4paper]{article}
 
-
 % Enable custom colors
 \RequirePackage[usenames,dvipsnames]{xcolor}
 \RequirePackage{enumitem}
@@ -30,13 +29,10 @@
 % Section environment
 \newenvironment{Section}[1]{
     \raggedbottom
-%    \medskip
     \vspace{0.1cm}
     {\header{#1}}
-%    \medskip
     \vspace{0.1cm}
     {\color{accent}\hline}
-
     }{}
 
 \newlist{tabitemize}{itemize}{1}
@@ -69,7 +65,6 @@
     \end{tabular}
     \vspace{-0.4cm}
 }
-
 \newcommand{\workplaceSingleDate}[7]{
     \begin{tabular}{@{}p{0.215\textwidth}p{0.75\textwidth}@{}}
         #1 \newline (#2)
@@ -82,7 +77,6 @@
     \end{tabular}
     \vspace{-0.4cm}
 }
-
 %----------------------------------------------------------------------------------------
 % Define tag command for formatting tags
 %----------------------------------------------------------------------------------------
@@ -91,7 +85,15 @@
 \newcommand{\info}[1]{\textcolor{black}{#1}}
 
 \newcommand{\personalInfo}[1]{
-    \centerline{#1}\par\personalInfoSkip
+    \centerline{#1}\par
 }
 
 \newcommand{\size}[2]{{\fontsize{#1}{0}\selectfont#2}}
+
+\RequirePackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan,
+}
+\newcommand{\link}[3]{\href{#1}{\textcolor{#3}{#2}}}
